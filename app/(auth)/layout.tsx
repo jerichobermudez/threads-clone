@@ -23,7 +23,7 @@ export default function RootLayout({
       }}
     >
       <html lang="en">
-        <body className={`${inter.className} bg-dark-1`}>
+        <body className={`${inter.className} bg-dark-1 h-full flex items-center justify-center mt-7`}>
           {children}
         </body>
       </html>
